@@ -1,0 +1,60 @@
+
+body {
+    background: #cccccc;
+    background-image: url(/full-bloom/full-bloom.png)
+
+}
+
+#container1 {
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+}
+
+.aaa {
+    background: #ccccccc;
+    color: grey; 
+    float: right;
+}
+
+header {
+    background:rgb(19, 187, 170);
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    width: 175px;
+    height: 75px;
+    font-size: 40px;
+    margin: 10px;
+}
+img {
+    float: left;
+    margin: 30px 10px 15px 10px;
+}
+#container2 {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.aboutme {
+    color: rgb(19, 187, 170);
+}
+
+p1 {
+    color: grey;
+}
+
+p2 {
+    color: grey;
+}
+
+ul {
+    color: grey;
+}
+
+#bbb {
+    width: 500px;
+    margin: 50px;
+}
+
+#footer {
+    background: darkgrey;
+    color: white;
+}

@@ -1,0 +1,133 @@
+body {
+    background-image: url(full-bloom/full-bloom.png);
+}
+
+.flex-container1 {
+    background:#ffffff;
+    height: 70px;
+    margin: auto;
+    padding: 0;
+    display:flex;
+    justify-content: space-around;
+   
+}
+
+#navigation {
+   
+    background: lightyellow;
+    width: 200px;
+    text-align: center;
+
+ }
+ 
+ #annavu {
+    
+     background:#4aaaa5;
+     text-align: center;
+     width: 200px;
+     float: right;
+     font-size: 40px;
+     color: white;
+
+     /*Set up the font*/
+     font-family: Georgia, 'Times New Roman', Times, serif;
+
+     /*Center vertically*/
+     padding: 10px 0;
+
+
+    
+
+     
+ }
+
+.flex-container2 {
+    background: #ffffff;
+
+    /* Align the container in the middle of the body*/
+    margin: 0 auto;
+
+    height: 500px;
+    width: 960px;
+    padding: 0 25px 0 25px;
+    
+    
+}
+
+#item1 {
+    background:lightyellow;
+    color: #4aaaa5;
+    margin: 40px 0;
+    font-size: 40px;
+
+    /*bold the text*/
+    font-weight: bold;
+
+  
+    /*Moving "Contact" to the center vertically*/
+    /*Don't set up height, use padding to center the text horizontally*/
+    padding: 35px 0;
+
+    /*Add an underline under the box*/
+    border-bottom: 5px solid grey;
+}
+
+#item2 {
+    background: #ffffff;
+    margin: 20px 25px 0 0px;
+    
+}
+
+#item3 {
+    background:#ffffff;
+    border: 1px solid lightgray;
+    margin: 10px 0px;
+    color:grey;
+}
+
+#item4 {
+    background: #ffffff;
+    margin: 0 25px 10px 0px;
+}
+
+#item5 {
+    background: #ffffff;
+    margin: 10px 0px;
+    border: 1px solid lightgray;
+    color:grey;
+}
+
+#item6 {
+    background: #ffffff;
+    margin: 0 25px 10px 0px;
+   
+}
+
+#item7 {
+    background: #ffffff;
+    margin: 10px 0px;
+    border: 1px solid lightgray;
+    height: 120px;
+}
+
+#item8 {
+    background: #ffffff;
+    margin: 0 25px 10px 0px;
+    border: 1px solid lightgray;
+    background: #4aaaa5;
+    color: white;
+    text-align: center;
+    width: 100px;
+    height: 20px;
+    
+
+}
+
+
+.footer {
+    background:grey;
+    text-align: center;
+    height: 60px;
+    border-top: 5px solid #4aaaa5;
+    margin: 300px 0 0 0;
+}
