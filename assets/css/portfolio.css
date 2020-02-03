@@ -1,6 +1,6 @@
 html {
     background: lightgray;
-    /* background-image: url(full-bloom/full-bloom.png); */
+    /* background-image: url(/full-bloom/full-bloom.png/); */
 }
 
 body {
@@ -56,32 +56,77 @@ li {
 }
 
 section {
-    padding: 25px;
     background: #ffffff;
-    width: 960px;
-    border: 1px solid lightgrey; 
-    margin: 100px 200px;
+    margin: 20px auto 40px auto;
     max-width: 1200px;
-    height: 500px;
-    
+    width: 600px;
+    border: 1px solid lightgray;
+}
+.container {
+    position: relative;
     
 }
 
-img {
-    width: 200px;
+.text-block {
+   
+    bottom: 20px;
+    right: 20px;
+    background-color: #4aaaa5;
+    color: white;
     float: left;
-    margin-right: 10px;
+
+    /*putting a text block over image by setting the block to the center*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+
+    /*set up the width to be equal with the image*/
+    width: 180px;
+    height: 20px;
+    text-align: center;
+    padding: 15px 0;
+
 }
-
-
-.aboutme {
+.portfolio {
+    background: #ffffff;
     color: #4aaaa5;
     justify-content: center;
     font-size: 35px;
+    height: 40px;
+    padding: 20px 25px;
+}
+
+div {
+    color: gray;
+    margin: auto;
+    
+}   
+
+.row1 {
+    background: #ffffff;
+    display:flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.row2 {
+    background:#ffffff;
+    display:flex;
+    margin: 20px;
 
 }
 
+.row3 {
+    background: #ffffff;
+    width: 180px;
+    display:flex;
+    margin: 0 70px;
+}
 
+#img {
+    margin: 0;
+}
 
 
 footer {
