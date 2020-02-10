@@ -108,3 +108,17 @@ footer {
     }
 
 }
+@media screen and (max-width:768px) {
+    section {
+        width: fit-content;
+        height: fit-content;
+        margin: 40px 10px 200px 10px;
+    }
+    span {
+        margin: 0 10px;
+    }
+}
+
+@media screen and (max-width:640px) {
+    
+}
