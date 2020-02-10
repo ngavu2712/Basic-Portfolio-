@@ -132,6 +132,15 @@ footer {
     }
     
     img {
-        width: 200px;
+        width: 300px;
+        height: 250px;
+        position: absolute;
+        padding: 20px 56px;
+        
+    }
+    div.paragraph {
+        padding: 271px 0 0;
+        font-size: 20px;
+        
     }
 }
