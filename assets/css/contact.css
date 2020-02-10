@@ -111,3 +111,48 @@ footer {
     padding: 20px;
 
 }
+
+@media screen and (max-width:980px) {
+    
+    div.container {
+        width: fit-content;
+        margin: 40px 400px 200px 40px;
+    }
+    p {
+        font-size:12px;
+    }
+    span {
+        margin: 0 40px;
+    }
+
+}
+@media screen and (max-width:768px) {
+    div.container {
+        width: fit-content;
+        height: fit-content;
+        margin: 30px 10px 200px 10px;
+    }
+    span {
+        margin: 0 10px;
+    }
+}
+
+@media screen and (max-width:640px) {
+    div.container {
+        width: fit-content;
+        height: fit-content;
+        margin: 40px 10px 200px 10px;
+    }
+    span {
+        width: 100%;
+        text-align: center;
+    }
+    
+    p {
+        font-size: 14px;
+    }
+    
+    img {
+        width: 200px;
+    }
+}

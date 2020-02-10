@@ -11,19 +11,16 @@ body {
 
 header {
     background:#ffffff;
-    
-
     /*control what happen to the content that is too big to fit into the area*/ 
     overflow:auto;
-
-    top: 0;
     font-family: 'Georgia', 'Times New Roman', Times, serif;
-
+    width: 100%;
 }
 
 nav {
-    max-width: 1200px;
+    width: 100%;
     margin: 0;
+   
 }
 
 span {
@@ -120,5 +117,21 @@ footer {
 }
 
 @media screen and (max-width:640px) {
+    section {
+        width: fit-content;
+        height: fit-content;
+        margin: 40px 10px 200px 10px;
+    }
+    span {
+        width: 100%;
+        text-align: center;
+    }
     
+    p {
+        font-size: 14px;
+    }
+    
+    img {
+        width: 200px;
+    }
 }

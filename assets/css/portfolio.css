@@ -11,7 +11,6 @@ body {
 
 header {
     background:#ffffff;
-    position: sticky;
 
     /*control what happen to the content that is too big to fit into the area*/ 
     overflow:auto;
@@ -96,6 +95,7 @@ section {
     font-size: 35px;
     height: 40px;
     padding: 20px 25px;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
 }
 
 div {
@@ -139,3 +139,69 @@ footer {
 
 }
 
+@media screen and (max-width:980px) {
+    
+    section {
+        width: fit-content;
+        margin: 40px 300px 40px 40px;
+    }
+    div.container {
+        padding: 15px;
+    }
+    div.row1 {
+        margin:10px;
+    }
+    div.row2 {
+        margin:10px;
+    }
+    div.row3 {
+        margin:10px;
+    }
+
+    span {
+        margin: 0 40px;
+    }
+
+    footer {
+        margin: 20px 0 0 0;
+    }
+
+}
+@media screen and (max-width:768px) {
+    section {
+        margin: 40px auto;;
+        
+    }
+    span {
+        margin: 0 10px;
+    }
+}
+
+@media screen and (max-width:640px) {
+    
+    div.container {
+        width: fit-content;
+        height: fit-content;
+        
+    }
+    span {
+        width: 100%;
+        text-align: center;
+    }
+    
+    div.row1 {
+        display: block;
+    }
+    div.row2{
+        display: block;
+    }
+    div.row3 {
+        display: block;
+    }
+    img {
+        width: 250px;
+    }
+    div.text-block {
+        width: 250px;
+    }
+}
